@@ -9,7 +9,12 @@ import google.generativeai as genai
 # ─────────────────────────────────────────────
 st.set_page_config(page_title="Plant OT Report", layout="wide", page_icon="🕐")
 
-GEMINI_API_KEY = ""  #ENTER API KEY HERE
+
+import streamlit as st
+import google.generativeai as genai
+
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+
 genai.configure(api_key=GEMINI_API_KEY)
 # ─────────────────────────────────────────────
 # HEADER
