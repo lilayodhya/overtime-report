@@ -9,7 +9,7 @@ import google.generativeai as genai
 # ─────────────────────────────────────────────
 st.set_page_config(page_title="Plant OT Report", layout="wide", page_icon="🕐")
 
-GEMINI_API_KEY = "AQ.Ab8RN6Ki5X7UaiOFehQPd8r7zs8jQYt-pEcgvRJ03LqDMntI2g"  # ← Replace this
+GEMINI_API_KEY = ""  #ENTER API KEY HERE
 genai.configure(api_key=GEMINI_API_KEY)
 # ─────────────────────────────────────────────
 # HEADER
