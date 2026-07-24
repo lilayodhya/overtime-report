@@ -2,8 +2,4 @@ streamlit
 pandas
 plotly
 google-generativeai
-<<<<<<< HEAD
 openpyxl
-=======
-openpyxl
->>>>>>> cf96b10 (updated)
